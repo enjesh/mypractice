@@ -9,13 +9,56 @@
     padding: 10px;
     height: 100px;
     width: 100px;
-    border: 30px solid crimson;
-    margin: 60px;
+    border: 30px solid rgb(165, 136, 142);
+    margin: 20px;
+    /* box-sizing: border-box; */
+    /* display: inline; */
+    /* display: block; */
+    display: flex;
 }
 
 .box2 {
     background-color: red;
     padding: 20px;
-    border: 20px solid forestgreen;
+    border: 20px solid rgb(83, 122, 83);
     margin: 20px;
+    /* display: inline; */
+    /* display: block; */
+}
+
+.list {
+    display: flex;
+}
+
+.red {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+    margin: 40px;
+
+}
+
+.blue {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+    margin: 40px;
+}
+
+.yellow {
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+    margin: 40px;
+}
+
+.green {
+    background-color: fuchsia;
+    height: 100px;
+    width: 100px;
+    padding: 40px;
+    margin: 40px;
 }
